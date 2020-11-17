@@ -1,14 +1,13 @@
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyDF0PEYGOuL4WgbNGy074TmvRSqPOT_L1I",
-  authDomain: "facbookemessenger-clone.firebaseapp.com",
-  databaseURL: "https://facbookemessenger-clone.firebaseio.com",
-  projectId: "facbookemessenger-clone",
-  storageBucket: "facbookemessenger-clone.appspot.com",
-  messagingSenderId: "482597931530",
-  appId: "1:482597931530:web:34e40ed22dd53a1de4edf3",
-  measurementId: "G-HDH6N4Y55X"
+  apiKey: "AIzaSyAuqserm-7oTMbAE2BZdJSStyFS0IhyLVQ",
+  authDomain: "fb-messenger-clone-johannamag.firebaseapp.com",
+  databaseURL: "https://fb-messenger-clone-johannamag.firebaseio.com",
+  projectId: "fb-messenger-clone-johannamag",
+  storageBucket: "fb-messenger-clone-johannamag.appspot.com",
+  messagingSenderId: "477748760855",
+  appId: "1:477748760855:web:490a8e3b8563488dc5a752",
 });
 
 const db = firebaseApp.firestore();
